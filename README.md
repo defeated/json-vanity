@@ -4,9 +4,7 @@ pretty-print json from the command line
 
 ## usage
 
-```sh
-curl http://example.com/results.json | json-vanity
-```
+`curl http://example.com/results.json | json-vanity` outputs the following:
 
 ```json
 {
@@ -20,3 +18,8 @@ curl http://example.com/results.json | json-vanity
  ]
 }
 ```
+
+## developing
+
+  1. `go get github.com/defeated/json-vanity`
+  2. `go test -cover`
